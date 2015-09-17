@@ -1,0 +1,3 @@
+IP="$(docker inspect node1 | sed -n 's/        "IPAddress": "\(.*\)",/\1/p')"
+PORT=$RANDOM
+java -jar quoteservice/target/quoteservice-1.0-SNAPSHOT.jar --server.port=$PORT --discovery.registrationAddress=$IP --health.port=$PORT

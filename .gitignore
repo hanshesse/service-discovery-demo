@@ -1,0 +1,7 @@
+zookeeper/orderservice/target/*
+zookeeper/quoteservice/target/*
+eureka/orderservice/target/*
+eureka/quoteservice/target/*
+eureka/eureka-server/target/*
+consul/orderservice/target/*
+consul/quoteservice/target/*

@@ -1,0 +1,2 @@
+IP="$(docker inspect node1 | sed -n 's/        "IPAddress": "\(.*\)",/\1/p')"
+java -jar orderservice/target/orderservice-1.0-SNAPSHOT.jar --discovery.address=$IP

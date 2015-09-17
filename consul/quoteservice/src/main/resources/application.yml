@@ -1,0 +1,8 @@
+server:
+    port: 8080
+
+discovery:
+    registrationAddress=localhost
+
+health:
+    port: 8080

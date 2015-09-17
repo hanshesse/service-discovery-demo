@@ -1,0 +1,1 @@
+java -jar quoteservice/target/quoteservice-1.0-SNAPSHOT.jar --server.port=$RANDOM --eureka.instance.hostname=quote$1

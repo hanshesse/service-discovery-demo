@@ -1,0 +1,6 @@
+server:
+    port: 9090
+
+discovery:
+    zookeeper:
+        address: 172.17.0.7:2181
